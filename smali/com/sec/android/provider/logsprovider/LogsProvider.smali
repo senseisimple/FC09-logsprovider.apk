@@ -234,28 +234,6 @@
 
     const-string v1, "logs"
 
-    const-string v1, "sms"
-
-    const/16 v2, 0x9
-
-    invoke-virtual {v0, v3, v1, v2}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
-
-    .line 198
-    sget-object v0, Lcom/sec/android/provider/logsprovider/LogsProvider;->sURIMatcher:Landroid/content/UriMatcher;
-
-    const-string v1, "logs"
-
-    const-string v1, "mms"
-
-    const/4 v2, 0x7
-
-    invoke-virtual {v0, v3, v1, v2}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
-
-    .line 199
-    sget-object v0, Lcom/sec/android/provider/logsprovider/LogsProvider;->sURIMatcher:Landroid/content/UriMatcher;
-
-    const-string v1, "logs"
-
     const-string v1, "email"
 
     const/16 v2, 0xb
